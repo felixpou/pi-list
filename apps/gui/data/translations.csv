@@ -4,12 +4,12 @@
 test_key,test_waarde,test_value,test_value
 ,,,
 analysis.warnings.pcap.truncated,Afgeknot,Truncated,Truncado,Tronqué
-analysis.errors.missing_information,Fout: informatie ontbreekt,Internal error: information is missing,Erro interno: falta informação
-analysis.errors.invalid_delta_rtp_ts_vs_nt,Invalid delta between RTP timestamp and N x Tframe,Invalid delta between RTP timestamp and N x Tframe,Delta entre o timestamp RTP e o valor de N x Tframe inválido
-analysis.errors.cinst_above_maximum,CInst is above the maximum allowed value (CMAX),CInst is above the maximum allowed value (CMAX),CInst está acima do valor máximo permitido (CMAX)
-analysis.errors.vrx_above_maximum,VRX is above the maximum allowed value (VRXFULL),VRX is above the maximum allowed value (VRXFULL),VRX está acima do valor máximo permitido (VRXFULL)
-analysis.errors.tsdf_not_compliant,TS-DF not compliant with EBU TECH 3337,TS-DF not compliant with EBU TECH 3337,O valor de TS-DF não está de acordo com a recomendação EBU TECH 3337
-analysis.errors.dropped_packets,"Dropped packets. RTP timestamp discontinuities were detected. This could be caused by a sender or receiver error, or by network congestion","Dropped packets. RTP timestamp discontinuities were detected. This could be caused by a sender or receiver error, or by network congestion",Pacotes perdidos. Foram detetadas descontinuidades no timestamp RTP
+analysis.errors.missing_information,Fout: informatie ontbreekt,Internal error: information is missing,Erro interno: falta informação,Erreur interne: information manquante
+analysis.errors.invalid_delta_rtp_ts_vs_nt,Invalid delta between RTP timestamp and N x Tframe,Invalid delta between RTP timestamp and N x Tframe,Delta entre o timestamp RTP e o valor de N x Tframe inválido, Delta non valide entre le marqueur de temps RTP et le N x Tframe
+analysis.errors.cinst_above_maximum,CInst is above the maximum allowed value (CMAX),CInst is above the maximum allowed value (CMAX),CInst está acima do valor máximo permitido (CMAX),CInst est supérieur à la valeur maximale autorisée (CMAX)
+analysis.errors.vrx_above_maximum,VRX is above the maximum allowed value (VRXFULL),VRX is above the maximum allowed value (VRXFULL),VRX está acima do valor máximo permitido (VRXFULL),VRX est supérieur à la valeur maximale autorisée (VRXFULL)
+analysis.errors.tsdf_not_compliant,TS-DF not compliant with EBU Tech 3337,TS-DF not compliant with EBU Tech 3337,O valor de TS-DF não está de acordo com a recomendação EBU Tech 3337,TS-DF non conforme à EBU Tech 3337
+analysis.errors.dropped_packets,"Dropped packets. RTP timestamp discontinuities were detected. This could be caused by a sender or receiver error, or by network congestion","Dropped packets. RTP timestamp discontinuities were detected. This could be caused by a sender or receiver error, or by network congestion",Pacotes perdidos. Foram detetadas descontinuidades no timestamp RTP,"Paquets perdus. Des discontinuités de marqueur de temps RTP ont été détectées. Cela peut être dû à une erreur de l'expéditeur ou du destinataire ou à une congestion du du réseau."
 headings.network_information,Netwerk Informatie,Network Information,Informação de Rede
 headings.media_information,Media Informatie,Media Information,Informação da Essência
 headings.audio_explorer,Audio Verkenner,Audio Explorer,Explorador de Áudio
